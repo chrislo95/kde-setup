@@ -1,0 +1,14 @@
+sudo apt install python3 python3-venv python3-pip
+sudo apt install clangd-13 //for kate and visit clangd website, had to restart afterwards
+sudo apt install git curl wget
+sudo apt install zsh
+sudo apt install ssh
+
+//steps to get LSP python to work
+pip3 install python-lsp-server
+
+then have to add it to $PATH in order for it to work.
+Go to ~/.zshrc and add this : export PATH="$HOME/techpc/.local/bin:$PATH"
+then use this : source ~/.zshrc
+then use this to check if it was added correctly : echo $PATH
+
