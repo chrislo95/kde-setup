@@ -12,3 +12,11 @@ Go to ~/.zshrc and add this : export PATH="$HOME/techpc/.local/bin:$PATH"
 then use this : source ~/.zshrc
 then use this to check if it was added correctly : echo $PATH
 
+CORRECTION : export PATH="$HOME/techpc/.local/bin:$PATH" does not work correctly. It needs to be export PATH="$HOME/.local/bin:$PATH"
+Then for kate to work you need to change the config file to point to the correct file.
+Example:
+"python": {
+            "command": ["/home/techpc/.local/bin/pylsp", "--check-parent-process"],
+            "url": "https://github.com/python-lsp/python-lsp-server",
+            "highlightingModeRegex": "^Python$"
+
