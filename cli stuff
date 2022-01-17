@@ -1,7 +1,7 @@
 sudo apt install python3 python3-venv python3-pip
 sudo apt install clangd-13 //for kate and visit clangd website, had to restart afterwards
-sudo apt install git curl wget
-sudo apt install zsh
+sudo apt install git curl wget nmap
+sudo apt install zsh //then go to oh my zsh github page to finish install
 sudo apt install ssh
 
 //steps to get LSP python to work
