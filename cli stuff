@@ -20,3 +20,9 @@ Example:
             "url": "https://github.com/python-lsp/python-lsp-server",
             "highlightingModeRegex": "^Python$"
 
+
+//plugins for zsh
+zsh-suggestions
+zsh-syntax-highlighting
+fzf
+dirhistory
